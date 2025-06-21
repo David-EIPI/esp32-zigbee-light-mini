@@ -48,12 +48,6 @@ class dsAnalogInputClusterHandler(AnalogInputClusterHandler):
     )
 
 
-# Add microseconds to the units list
-from zha.application.platforms.number.const import UNITS
-if not 194 in UNITS:
-    UNITS[194] = "Microseconds"
-
-
 #
 #Make ZHA recognize the sensor
 #
