@@ -21,7 +21,7 @@ The firmware is written in C and built with `idf.py`. It implements a zero-cross
 
 This design includes an additional temperature cluster due to the compact, enclosed setup. Monitoring internal temperature becomes important in this system.
 
-See [here](https://github.com/David-EIPI/stm32-zigbee-light/blob/main/BUILD.md) instructions on building the firmware using `idf.py` on Linux.
+See [here](https://github.com/David-EIPI/esp32-zigbee-light/blob/main/BUILD.md) instructions on building the firmware using `idf.py` on Linux.
 
 
 ### Sensor calibration
